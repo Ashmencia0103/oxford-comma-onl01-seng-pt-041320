@@ -4,6 +4,8 @@ def oxford_comma(array)
     final = array.join
   elsif array.length == 2
     final = array.join (' and ')
+  elsif array.length == 3
+    final = "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
     final
   end
