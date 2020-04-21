@@ -4,6 +4,7 @@ def oxford_comma(array)
   case array
     when array.length == 1
         final = array.join
+        puts final
     else
       return final
   end
