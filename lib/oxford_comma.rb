@@ -1,4 +1,4 @@
-names = ["ash"]
+name = ["ash"]
 def oxford_comma(array)
   puts array.length
   case array
@@ -8,3 +8,4 @@ def oxford_comma(array)
       return final
   end
 end
+oxford_comma(name)
